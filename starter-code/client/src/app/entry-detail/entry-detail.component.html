@@ -1,0 +1,13 @@
+
+<a [routerLink]="['']"> Back to list </a>
+
+<div *ngIf="post">
+
+  <div class="post-info">
+    <h2> {{ post.title }}&nbsp;</h2>
+    <h3> {{ post.content }} </h3>
+    <h3> {{ post.date }} </h3>
+
+  </div>
+
+</div>
